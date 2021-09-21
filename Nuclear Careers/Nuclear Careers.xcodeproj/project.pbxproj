@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042F2CC7204F31DB00940371 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042F2CC6204F31DB00940371 /* Info.plist */; };
+		048ACC021FFC21EF00B4283D /* NuclearCareer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ACC011FFC21EF00B4283D /* NuclearCareer.swift */; };
+		04C38A5B202B68120097C46C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C38A5A202B68120097C46C /* Main.storyboard */; };
+		04C38A5D202B684E0097C46C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C38A5C202B684E0097C46C /* LaunchScreen.storyboard */; };
+		83A4029D1E576E8000022B96 /* INVVideoComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A4029C1E576E8000022B96 /* INVVideoComponent.swift */; };
+		83A402A01E57753200022B96 /* INVExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A4029F1E57753200022B96 /* INVExampleViewController.swift */; };
+		83DD12B31D9D6530007274AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DD12B21D9D6530007274AB /* AppDelegate.swift */; };
+		83DD12BA1D9D6530007274AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83DD12B91D9D6530007274AB /* Assets.xcassets */; };
+		83DD12C71D9D6869007274AB /* INVVideoMetaExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DD12C41D9D6869007274AB /* INVVideoMetaExtension.swift */; };
+		83DD12C91D9D6869007274AB /* INVVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DD12C61D9D6869007274AB /* INVVideoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042F2CC6204F31DB00940371 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048ACC011FFC21EF00B4283D /* NuclearCareer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NuclearCareer.swift; path = "Nuclear Careers/NuclearCareer.swift"; sourceTree = SOURCE_ROOT; };
+		04C38A5A202B68120097C46C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "Nuclear Careers/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		04C38A5C202B684E0097C46C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "Nuclear Careers/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		83A4029C1E576E8000022B96 /* INVVideoComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INVVideoComponent.swift; sourceTree = "<group>"; };
+		83A4029F1E57753200022B96 /* INVExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INVExampleViewController.swift; sourceTree = "<group>"; };
+		83DD12AF1D9D6530007274AB /* Nuclear Careers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nuclear Careers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DD12B21D9D6530007274AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Nuclear Careers/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		83DD12B91D9D6530007274AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Nuclear Careers/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		83DD12C41D9D6869007274AB /* INVVideoMetaExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INVVideoMetaExtension.swift; sourceTree = "<group>"; };
+		83DD12C61D9D6869007274AB /* INVVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INVVideoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83DD12AC1D9D6530007274AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A4029E1E5774F900022B96 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				83A4029F1E57753200022B96 /* INVExampleViewController.swift */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		83DD12A61D9D6530007274AB = {
+			isa = PBXGroup;
+			children = (
+				83DD12B11D9D6530007274AB /* Nuclear Careers */,
+				83DD12B01D9D6530007274AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83DD12B01D9D6530007274AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83DD12AF1D9D6530007274AB /* Nuclear Careers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83DD12B11D9D6530007274AB /* Nuclear Careers */ = {
+			isa = PBXGroup;
+			children = (
+				83F25E391E579CD9008283AE /* INVVideoComponent */,
+				83A4029E1E5774F900022B96 /* Example */,
+				83DD12B21D9D6530007274AB /* AppDelegate.swift */,
+				048ACC011FFC21EF00B4283D /* NuclearCareer.swift */,
+				04C38A5A202B68120097C46C /* Main.storyboard */,
+				042F2CC6204F31DB00940371 /* Info.plist */,
+				83DD12B91D9D6530007274AB /* Assets.xcassets */,
+				04C38A5C202B684E0097C46C /* LaunchScreen.storyboard */,
+			);
+			path = "Nuclear Careers";
+			sourceTree = "<group>";
+		};
+		83F25E391E579CD9008283AE /* INVVideoComponent */ = {
+			isa = PBXGroup;
+			children = (
+				83A4029C1E576E8000022B96 /* INVVideoComponent.swift */,
+				83DD12C61D9D6869007274AB /* INVVideoViewController.swift */,
+				83DD12C41D9D6869007274AB /* INVVideoMetaExtension.swift */,
+			);
+			name = INVVideoComponent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83DD12AE1D9D6530007274AB /* Nuclear Careers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DD12C11D9D6530007274AB /* Build configuration list for PBXNativeTarget "Nuclear Careers" */;
+			buildPhases = (
+				83DD12AB1D9D6530007274AB /* Sources */,
+				83DD12AC1D9D6530007274AB /* Frameworks */,
+				83DD12AD1D9D6530007274AB /* Resources */,
+				831B58351DE9F67A006B3D46 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nuclear Careers";
+			productName = FaceDetection;
+			productReference = 83DD12AF1D9D6530007274AB /* Nuclear Careers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83DD12A71D9D6530007274AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Southern Company";
+				TargetAttributes = {
+					83DD12AE1D9D6530007274AB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3PU47PMEJB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83DD12AA1D9D6530007274AB /* Build configuration list for PBXProject "Nuclear Careers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83DD12A61D9D6530007274AB;
+			productRefGroup = 83DD12B01D9D6530007274AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83DD12AE1D9D6530007274AB /* Nuclear Careers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83DD12AD1D9D6530007274AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042F2CC7204F31DB00940371 /* Info.plist in Resources */,
+				04C38A5D202B684E0097C46C /* LaunchScreen.storyboard in Resources */,
+				83DD12BA1D9D6530007274AB /* Assets.xcassets in Resources */,
+				04C38A5B202B68120097C46C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		831B58351DE9F67A006B3D46 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83DD12AB1D9D6530007274AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DD12C91D9D6869007274AB /* INVVideoViewController.swift in Sources */,
+				83DD12C71D9D6869007274AB /* INVVideoMetaExtension.swift in Sources */,
+				048ACC021FFC21EF00B4283D /* NuclearCareer.swift in Sources */,
+				83A4029D1E576E8000022B96 /* INVVideoComponent.swift in Sources */,
+				83A402A01E57753200022B96 /* INVExampleViewController.swift in Sources */,
+				83DD12B31D9D6530007274AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83DD12BF1D9D6530007274AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Steven Farrow (G8HEV9PC42)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Nuclear Careers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83DD12C01D9D6530007274AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Steven Farrow (G8HEV9PC42)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Nuclear Careers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83DD12C21D9D6530007274AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3PU47PMEJB;
+				INFOPLIST_FILE = "Nuclear Careers/Info.Plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southerncompany.nuclearcareers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		83DD12C31D9D6530007274AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3PU47PMEJB;
+				INFOPLIST_FILE = "Nuclear Careers/Info.Plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.southerncompany.nuclearcareers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83DD12AA1D9D6530007274AB /* Build configuration list for PBXProject "Nuclear Careers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DD12BF1D9D6530007274AB /* Debug */,
+				83DD12C01D9D6530007274AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83DD12C11D9D6530007274AB /* Build configuration list for PBXNativeTarget "Nuclear Careers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DD12C21D9D6530007274AB /* Debug */,
+				83DD12C31D9D6530007274AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83DD12A71D9D6530007274AB /* Project object */;
+}
